@@ -1,0 +1,20 @@
+Document Object  :
+        Document object represents a webpage that is loaded in the browser.
+        By accessing the document object ,we can access the the element in the HTML page.
+        It is loaded inside the window .
+        It is the object is window property.
+        It is the part of BOM & DOM.
+
+        In document objects we can add the dynamic contents of the web page.
+        SYNTAX : 
+                document.propertyname ;
+
+Window Object  :
+        Window object represents a browser window or frame that displays the contents of the webpage.
+        By accessing the window object, a window appears on the screen to display the contents of the document.
+        It is the very first object that is loaded in the browser.
+        It is the object of the browser.
+        It is the part of BOM and not DOM .
+        
+        SYNTAX :
+                window.propetyname 

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+
+.required{
+    /* background-color: red; */
+    width: 100%;
+    padding-left: 0.5em;
+    font-weight: bold;
+}
+.username{
+    padding: 0.5em;
+}
+.name{
+    width: 30%;
+}
+.usermail{
+    padding: 0.5em;
+}
+.email{
+    width:60%
+}
+.multiple{
+    color:red;
+}
+.stars{
+    padding-left: 0.5em;
+    font-weight: bold;
+}
+.inline{
+    display: block;
+    padding:0em 0.5em 0.5em 0.5em;
+}
+.experi-rate{
+    font-size: 0.7em;
+}
+table{
+    width: 100%;
+    text-align: left;
+    padding: 1em;
+} 
+td{
+    text-align: center;
+}
+.table-head{
+    padding-left: 1em;
+    font-weight: bold;
+    
+}
+.tab-row-topic{
+    font-size: 10px ;
+    color: black;
+    text-align: left!important;
+
+}
+.tab-col-topic{
+    font-size: 12px;
+    width: 30%;
+    text-align: left!important;
+
+}
+
+.comments{
+    padding: 1em;
+    font-weight: bold;
+}
+.button{
+    padding: 1em;
+}

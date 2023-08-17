@@ -1,0 +1,33 @@
+HTTP - HyperText Transfer Protocal :
+    Http is used in client-server communication  using API ( Application Programming Interface).
+    It sends the request to server and the server sends the response to the user only the request is in the database.
+    Let, Assume the user send the request to the server guvi/ide page and also make a another request to open 
+    guvi/codekata page 
+HTTP - 1.1 :
+    In http 1.1 before sending the request and  server response there is a  TCP(transmission control protocal)connection 
+    has been established.
+    There is a persistent connection which means several requests & responses are merged in a single connection.
+    HTTP/1.1 transfer all the  responses in the plain text message form.
+    The TCP connection is blocked all the requests and responses untill all the response does not recieve .
+HTTP  - 2  : 
+    In HTTP 2 Converts all the messages into textual format to binary format.
+    It allows multiplexing so one TCP connection is required for multiple requests.
+    In http-2 HPACK is used which is used to seperate data from the header.so the server sends the all files like HTML CSS without 
+    client request by using push frame.
+
+
+JAVASCRIPT OBJECTS & IT'S INTERNAL REPRESENTATION :
+    Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. 
+    These objects are quite different from JavaScript’s primitive data-types like Number, String, Boolean, null, undefined.
+    primitive data-types all store a single value each .
+    but the objects stores all the data in a key-value pairs.Keys can either be a number or string .
+
+    Access the properties of an object with a simple dot-notation or bracket-notation:
+        objectName.propertyName  or object name ['property name']
+            Like all JavaScript variables, both the object name  and property name are case sensitive. 
+            You can define a property by assigning it a value.
+        let's create a object,
+            let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+            now we call a object properties like,
+                bike.name or bike['name']  .
+            
